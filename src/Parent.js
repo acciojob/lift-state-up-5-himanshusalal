@@ -10,10 +10,10 @@ function Parent() {
 
   return (
     <div>
-      <h1>Lifting State Up Example</h1>
+      <h1>Login form</h1>
 
       {isLoggedIn ? (
-        <h2>Welcome User ✅</h2>
+        <h2>User Logged In ✅</h2>
       ) : (
         <LoginForm
           isLoggedIn={isLoggedIn}
